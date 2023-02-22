@@ -1,11 +1,11 @@
 # Challenge 1 - Solana 
-First basic solana development
+Solana - Airdrop SOL
 
 ## How to run
 ### Generate wallet
 if didn't yet created a wallet, you just need to run the following in CLI:
 ```bash
-  node generateWallet.js
+  node generateWallet
 ```
 then, you will get the following output:
 ```bash
@@ -14,7 +14,7 @@ then, you will get the following output:
 ### Check wallet balance and airdrop 2 lamport
 run the following in CLI:
 ```bash
-  node index.js publicKey={string}
+  node index publicKey={string}
 ```
 then, you will find the following line below as a part of the output when it is successful
 ```bash
